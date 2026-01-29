@@ -35,11 +35,11 @@ An IoT-integrated medical adherence system designed to prevent medication misuse
 * `/Documentation`: IEEE Format Project Report and Presentation.
 
 ## 👥 Group 06 - Team Members
-* **Arman Kabir** (ID: 0112230478) - *Team Lead*
-* **Member 2 Name** (ID: XXXXXXXX)
-* **Member 3 Name** (ID: XXXXXXXX)
-* **Member 4 Name** (ID: XXXXXXXX)
-* **Member 5 Name** (ID: XXXXXXXX)
+* **Arman Kabir** (ID: 0112230478)
+* **Zahidul Islam Tomal** (ID: 011222149)
+* **MD. Albab Rahman** (ID: 0112230949)
+* **Mahfuzur Rahman** (ID: **0112230475**)
+* **MD Miraz Ahamed** (ID: 0112310524)
 
 **Course Teacher:** Md. Shafqat Talukder Rakin  
 **Institution:** United International University (UIU)
