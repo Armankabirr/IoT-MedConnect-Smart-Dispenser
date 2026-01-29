@@ -27,7 +27,7 @@ An IoT-based physical access control system designed to improve medication adher
 4. Upload `IoT_Cloud_Bridge.ino` to the ESP32 with your Wi-Fi credentials.
 
 ## 👥 Team - Group 6 (UIU)
-* Member 1 Name (ID)
+* Arman Kabir (0112230478)
 * Member 2 Name (ID)
 * Member 3 Name (ID)
 * Member 4 Name (ID)
