@@ -1,34 +1,48 @@
-# IoT-MedConnect: Smart Medicine Dispenser
+# IoT-MedConnect: A Time-Controlled Smart Medicine Dispenser
 
-An IoT-based physical access control system designed to improve medication adherence for elderly and chronic patients. Built with Arduino UNO and ESP32.
+An IoT-integrated medical adherence system designed to prevent medication misuse and ensure timely intake using physical access control and redundant emergency alerting.
+
+## 📌 Project Overview
+**IoT-MedConnect** is a hardware-software integrated solution developed for the **Microprocessors and Microcontrollers Laboratory (CSE 4326)** at United International University. The system physically locks medication and only grants access at scheduled times. It uses a dual-alert system: a real-time web dashboard for monitoring and a GSM-based voice call alert for emergencies.
 
 ## 🚀 Key Features
-* **Physical Locking:** Solenoid valve prevents access to medication outside of scheduled hours.
-* **Automated Scheduling:** 3-tier rotation (Morning/Afternoon/Night) using a Servo motor and DS3231 RTC.
-* **Intake Verification:** IR sensors detect pill removal to confirm medication was actually taken.
-* **Real-time Dashboard:** Updates a web interface via ESP32.
-* **Automated Alert Calling:** Initiates a real-time call to caregivers if a dose is missed.
+* **Physical Access Control:** Uses a Solenoid lock to prevent early or repeated medication intake.
+* **3-Tier Organization:** Automatically rotates between Morning, Afternoon, and Night dosages using a Servo motor.
+* **Intake Verification:** IR sensors confirm if the pill has actually been removed from the slot.
+* **GSM Emergency Calling:** Utilizes the **SIM800L module** to place a direct voice call to the caregiver if a dose is missed.
+* **IoT Dashboard:** Real-time data synchronization via **ESP32** for remote monitoring.
 
-## 🛠️ Hardware Requirements
-* **Microcontrollers:** Arduino UNO, ESP32
-* **Sensors:** DS3231 RTC, IR Sensor Module
-* **Actuators:** SG90 Servo Motor, 12V Solenoid Lock Valve
-* **Display:** 0.96" OLED (I2C)
+## 🛠️ Hardware Components
+* **Microcontrollers:** Arduino UNO (System Logic), ESP32 (IoT Connectivity)
+* **GSM Module:** SIM800L (Cellular Voice Alerts)
+* **Sensors:** DS3231 RTC (Precision Timing), IR Sensor (Pill Detection)
+* **Actuators:** SG90 Servo Motor (Rotation), 12V Solenoid Lock (Security)
+* **Display:** 0.96" OLED I2C
 
-## 📂 Repository Structure
-* `/Software`: Contains `.ino` files for Arduino and ESP32.
-* `/Hardware`: Circuit diagrams and Schematics.
-* `/Report`: Final IEEE format project report.
 
-## 🔧 Setup
-1. Clone the repository.
-2. Install libraries: `RTClib`, `ESP32`, `Adafruit_SSD1306`.
-3. Upload `Arduino_Logic.ino` to the UNO.
-4. Upload `IoT_Cloud_Bridge.ino` to the ESP32 with your Wi-Fi credentials.
 
-## 👥 Team - Group 6 (UIU)
-* Arman Kabir (0112230478)
-* Member 2 Name (ID)
-* Member 3 Name (ID)
-* Member 4 Name (ID)
-* Member 5 Name (ID)
+## 💻 Software Environment
+* **Language:** C++ (Arduino Sketch)
+* **Platform:** Arduino IDE
+* **Libraries Used:** * `RTClib.h` (For DS3231)
+  * `Servo.h` (For motor control)
+  * `SoftwareSerial.h` (For SIM800L AT Commands)
+  * `WiFi.h` & `HTTPClient.h` (For ESP32 Dashboard)
+
+## 📁 Repository Structure
+* `/Software`: Arduino (.ino) source codes for UNO and ESP32.
+* `/Hardware`: Circuit schematics and Fritzing diagrams.
+* `/Documentation`: IEEE Format Project Report and Presentation.
+
+## 👥 Group 06 - Team Members
+* **Arman Kabir** (ID: 0112230478) - *Team Lead*
+* **Member 2 Name** (ID: XXXXXXXX)
+* **Member 3 Name** (ID: XXXXXXXX)
+* **Member 4 Name** (ID: XXXXXXXX)
+* **Member 5 Name** (ID: XXXXXXXX)
+
+**Course Teacher:** Md. Shafqat Talukder Rakin  
+**Institution:** United International University (UIU)
+
+## 📺 Demonstration
+[Link to YouTube Video]
