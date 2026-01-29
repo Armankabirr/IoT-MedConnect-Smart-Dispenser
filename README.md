@@ -6,7 +6,7 @@ An IoT-integrated medical adherence system designed to prevent medication misuse
 **IoT-MedConnect** is a hardware-software integrated solution developed for the **Microprocessors and Microcontrollers Laboratory (CSE 4326)** at United International University. The system physically locks medication and only grants access at scheduled times. It uses a dual-alert system: a real-time web dashboard for monitoring and a GSM-based voice call alert for emergencies.
 
 ## 🚀 Key Features
-* **Physical Access Control:** Uses a Solenoid lock to prevent early or repeated medication intake.
+* **Physical Access Control:** Prevent early or repeated medication intake.
 * **3-Tier Organization:** Automatically rotates between Morning, Afternoon, and Night dosages using a Servo motor.
 * **Intake Verification:** IR sensors confirm if the pill has actually been removed from the slot.
 * **GSM Emergency Calling:** Utilizes the **SIM800L module** to place a direct voice call to the caregiver if a dose is missed.
@@ -38,7 +38,7 @@ An IoT-integrated medical adherence system designed to prevent medication misuse
 * **Arman Kabir** (ID: 0112230478)
 * **Zahidul Islam Tomal** (ID: 011222149)
 * **MD. Albab Rahman** (ID: 0112230949)
-* **Mahfuzur Rahman** (ID: **0112230475**)
+* **Mahfuzur Rahman** (ID: 0112230475)
 * **MD Miraz Ahamed** (ID: 0112310524)
 
 **Course Teacher:** Md. Shafqat Talukder Rakin  
