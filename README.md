@@ -28,6 +28,11 @@ An IoT-integrated medical adherence system designed to prevent medication misuse
   * `Servo.h` (For motor control)
   * `SoftwareSerial.h` (For SIM800L AT Commands)
   * `WiFi.h` & `HTTPClient.h` (For ESP32 Dashboard)
+## 🖥️ Web Dashboard: Medicine Schedule Monitor
+The system features a real-time web interface that allows caregivers to:
+* **Monitor Live Time:** Synchronized with the DS3231 RTC module.
+* **Set Schedules:** Configure specific times for Morning, Noon, and Night doses.
+* **Track Status:** View a real-time countdown to the next scheduled dose and visual indicators for taken/missed medications.
 
 ## 📁 Repository Structure
 * `/Software`: Arduino (.ino) source codes for UNO and ESP32.
