@@ -16,7 +16,7 @@ An IoT-integrated medical adherence system designed to prevent medication misuse
 * **Microcontrollers:** Arduino UNO (System Logic), ESP32 (IoT Connectivity)
 * **GSM Module:** SIM800L (Cellular Voice Alerts)
 * **Sensors:** DS3231 RTC (Precision Timing), IR Sensor (Pill Detection)
-* **Actuators:** SG90 Servo Motor (Rotation), 12V Solenoid Lock (Security)
+* **Actuators:** SG90 Servo Motor (Rotation) and Servo Motor for open/close
 * **Display:** 0.96" OLED I2C
 
 
